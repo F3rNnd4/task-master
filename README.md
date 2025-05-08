@@ -1,20 +1,16 @@
-# Expo Router Example
+# Task Master
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+Aplicativo de gerenciamento de tarefas simples, desenvolvido com React Native e Expo Router.
 
-## 🚀 How to use
+## 📂 Estrutura do projeto
 
-```sh
-npx create-expo-app -e with-router
-```
+- **`app/`**: Contém as telas e layouts do aplicativo.
+  - `_layout.js`: Configuração de navegação.
+  - `index.js`: Tela principal para gerenciar tarefas.
+  - `settings.js`: Tela de configurações.
 
-## Deploy
+## 🛠️ Funcionalidades
 
-Deploy on all platforms with Expo Application Services (EAS).
-
-- Deploy the website: `npx eas-cli deploy` — [Learn more](https://docs.expo.dev/eas/hosting/get-started/)
-- Deploy on iOS and Android using: `npx eas-cli build` — [Learn more](https://expo.dev/eas)
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
+- Adicionar, editar e excluir tarefas.
+- Navegação entre telas usando Expo Router.
+- Interface simples e intuitiva.
